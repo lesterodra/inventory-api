@@ -2,9 +2,9 @@
 const express = require('express');
 const app = express();
 
-const inventory = require('./routes/inventory');
+const item = require('./routes/item');
 
-app.use('/api/inventories', inventory);
+app.use('/api/items', item);
 
 module.exports = app;
 
